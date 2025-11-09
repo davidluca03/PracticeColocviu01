@@ -8,7 +8,7 @@ class PracticeTest01Service : Service() {
     private var processingThread: ProcessingThread = ProcessingThread(this, 0, 0)
 
     override fun onBind(intent: Intent?): IBinder? {
-        TODO("Not yet implemented")
+        return null
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
